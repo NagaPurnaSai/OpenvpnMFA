@@ -19,3 +19,6 @@ composer require sonata-project/google-authenticator
 composer require endroid/qr-code
 Run this comamnd to start service:-
 php -S 0.0.0.0:$port -t /var/www/html/panel &
+
+add this line in server.conf in vpn:-
+auth-user-pass-verify ./auth.sh via-file
