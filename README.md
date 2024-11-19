@@ -1,11 +1,11 @@
 # OpenvpnMFA
 OpenvpnMFA panel to control users
 Requirements:-
-dnf install google-authenticator
-dnf install qrencode
-dnf install liboath liboath-devel libpskc libpskc-devel oathtool pam_oath pskctool
-dnf isntall expect
-dnf install python-urllib3
+dnf install google-authenticator-y 
+dnf install qrencode -y 
+dnf install liboath liboath-devel libpskc libpskc-devel oathtool pam_oath pskctool -y
+dnf isntall expect -y
+dnf install python-urllib3 -y
 wget http://prdownloads.sourceforge.net/pamtester/pamtester-0.1.2.tar.gz
 tar -xvzf pamtester-0.1.2.tar.gz
 cd pamtester-0.1.2
